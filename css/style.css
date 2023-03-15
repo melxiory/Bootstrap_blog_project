@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+
+:root {
+    --color_black: #232536;
+    --color_yellow: #FFD050;
+    --color_purple: #592EA9;
+    --color_darkgrey: #4C4C4C;
+    --color_mediumgrey: #6D6E76;
+    --color_lightgrey: #F4F4F4;
+    --color_lavender: #F4F0F8;
+    --color_lightyellow: #FBF6EA;
+}
+
+
+.container {
+    margin: auto;
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+.nav_mod {
+    height: 60px;
+}
+
+.navbar-brand{
+    font-size: 28px;
+}
+
+.navbar__divider {
+    margin: -4px 8px;
+    width: 1px;
+    height: 60px;
+    background-color: rgba(94,94,94,.6);
+}
+
+.btn {
+    color: var(--color_yellow);
+    border: var(--bs-btn-border-width) solid var(--color_yellow);
+}
+
+.btn-outline-success {
+    --bs-btn-color: #198754;
+    --bs-btn-border-color: #198754;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #198754;
+    --bs-btn-hover-border-color: #198754;
+    --bs-btn-focus-shadow-rgb: 25,135,84;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #198754;
+    --bs-btn-active-border-color: #198754;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #198754;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #198754;
+    --bs-gradient: none;
+}
