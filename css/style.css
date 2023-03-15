@@ -25,7 +25,7 @@ body {
     font-weight: normal;
 }
 
-
+/* Навигационный бар */
 .nav_mod {
     height: 60px;
 }
@@ -47,18 +47,18 @@ body {
 }
 
 .btn-outline-success {
-    --bs-btn-color: #198754;
-    --bs-btn-border-color: #198754;
-    --bs-btn-hover-color: #fff;
-    --bs-btn-hover-bg: #198754;
-    --bs-btn-hover-border-color: #198754;
-    --bs-btn-focus-shadow-rgb: 25,135,84;
-    --bs-btn-active-color: #fff;
-    --bs-btn-active-bg: #198754;
-    --bs-btn-active-border-color: #198754;
-    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-    --bs-btn-disabled-color: #198754;
-    --bs-btn-disabled-bg: transparent;
-    --bs-btn-disabled-border-color: #198754;
-    --bs-gradient: none;
+    --bs-btn-color: var(--color_yellow);
+    --bs-btn-border-color: var(--color_yellow);
+    --bs-btn-hover-bg: var(--color_yellow);
+    --bs-btn-hover-border-color: var(--color_yellow);
+    --bs-btn-active-bg: var(--color_yellow);
+    --bs-btn-active-border-color: var(--color_yellow);
+    --bs-btn-disabled-color: var(--color_yellow);
+    --bs-btn-disabled-border-color: var(--color_yellow);
+}
+
+/* Карусель */
+
+.carousel_sect .container-fluid {
+    padding: 0;
 }
