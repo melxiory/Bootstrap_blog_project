@@ -25,21 +25,26 @@ body {
     font-weight: normal;
 }
 
-/* Навигационный бар */
-.nav_mod {
-    height: 60px;
+section {
+    margin: 0 auto;
+    max-width: 1440px;
 }
+
+a{
+    text-decoration: none;
+}
+
+h2, h3, h4, h5{
+    font-weight: bold;
+}
+
+/* Навигационный бар */
 
 .navbar-brand{
     font-size: 28px;
+    font-weight: bold;
 }
 
-.navbar__divider {
-    margin: -4px 8px;
-    width: 1px;
-    height: 60px;
-    background-color: rgba(94,94,94,.6);
-}
 
 .btn {
     color: var(--color_yellow);
@@ -55,10 +60,143 @@ body {
     --bs-btn-active-border-color: var(--color_yellow);
     --bs-btn-disabled-color: var(--color_yellow);
     --bs-btn-disabled-border-color: var(--color_yellow);
+    --bs-btn-hover-color: var(--color_black);
+    --bs-btn-active-color: var(--color_black);
+}
+
+.form-control {
+    border-radius: 0;
+}
+
+
+header {
+    background-color: var(--color_black);
+}
+
+.btn {
+    --bs-btn-border-radius: 0;
+}
+
+.navbar {
+    --bs-navbar-toggler-border-radius: 0;
+}
+
+.navbar-toggler {
+    background-color: var(--color_yellow);
+    border: var(--bs-border-width) solid var(--color_yellow);
 }
 
 /* Карусель */
 
 .carousel_sect .container-fluid {
     padding: 0;
+    background-color: var(--color_black);
+}
+
+/* Посты домашней страницы */
+
+.home_posts {
+    padding: 100px 0;
+}
+
+.home_posts .best_post_title, .all_post_title {
+    margin-bottom: 30px;
+}
+
+
+.best_post {
+    width: 100%;
+    height: auto;
+    max-width: 750px;
+    border: 1px solid var(--color_mediumgrey);
+    padding: 10px;
+}
+
+.responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+.best_post p{
+    padding: 10px 0;
+}
+
+.home_posts p {
+    margin: 0;
+}
+
+.all_posts{
+    padding: 10px 0;
+}
+
+.all_post_title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Категории */
+.categories{
+    padding: 20px;
+}
+.category_card {
+    width: 296px;
+    height: 228px;
+    padding: 20px 20px;
+    border: 1px solid var(--color_mediumgrey);
+}
+
+.category_card p {
+    font-size: 14px;
+}
+
+.category_card img {
+    margin-bottom: 20px;
+}
+
+/* Подвал */
+
+footer{
+    padding: 30px;
+    background-color: var(--color_black);
+}
+
+footer .container-fluid {
+    padding: 0;
+}
+
+.bg-body-tertiary {
+    background-color: var(--color_black)!important;
+}
+
+.subscribe{
+    padding: 30px;
+}
+
+.subscribe h3 {
+    color: #FFFFFF;
+}
+
+.email_subs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p{
+    margin: 0 auto;
+    color: #FFFFFF;
+    opacity: 0.7;
+    font-size: 12px;
+}
+
+footer .cont_icons{
+    color: #FFFFFF;
+    opacity: 0.7;
+}
+
+.cont_mess {
+    display: flex;
+    justify-content: end;
+    align-items: center;
 }
