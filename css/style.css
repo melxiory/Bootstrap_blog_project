@@ -37,6 +37,7 @@ h1, h2, h3, h4, h5{
     font-weight: bold;
 }
 
+/*######### HOME ##########*/
 /* Навигационный бар */
 
 .navbar-brand{
@@ -113,7 +114,7 @@ header {
 
 .responsive {
     max-width: 100%;
-    height: auto;
+    max-height: 100%;
 }
 
 .best_post p{
@@ -228,12 +229,10 @@ footer .cont_icons{
 /* Список авторов */
 
 .author_list {
+    max-width: 1440px;
     padding: 80px 0;
 }
 
-.author_list .categories {
-    max-width: 1440px;
-}
 
 .card {
     border-radius: 0;
@@ -299,3 +298,36 @@ footer .cont_icons{
     --bs-pagination-disabled-border-color: var(--bs-border-color);
 }
 
+/*######### BLOG POST ##########*/
+/* Пост */
+.blog_post__post {
+    max-width: 1440px;
+    padding: 80px 0;
+}
+
+.blog_post__post__content {
+    padding: 40px ;
+}
+
+.blog_post__post__content__title {
+    height: 60px;
+}
+
+.blog_post__post__title__content__img {
+    width: 60px;
+}
+
+.blog_post__post__title__img img{
+    border-radius: 50%;
+}
+
+.blog_post__post__text ul {
+    padding: 0 0 0 40px;
+}
+
+/* Карты следующих постов */
+
+.blog_post__cards_read_next {
+    max-width: 1440px;
+    padding: 80px 0;
+}
