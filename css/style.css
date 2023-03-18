@@ -160,6 +160,21 @@ header {
     margin-bottom: 20px;
 }
 
+.best_post_btn{
+    color: var(--color_black);
+    background-color: var(--color_yellow);
+    --bs-btn-color: var(--color_black);
+    --bs-btn-border-color: var(--color_yellow);
+    --bs-btn-hover-bg: var(--bs-white);
+    --bs-btn-hover-border-color: var(--color_yellow);
+    --bs-btn-active-bg: var(--color_yellow);
+    --bs-btn-active-border-color: var(--color_yellow);
+    --bs-btn-disabled-color: var(--color_yellow);
+    --bs-btn-disabled-border-color: var(--color_yellow);
+    --bs-btn-hover-color: var(--color_yellow);
+    --bs-btn-active-color: var(--color_black);
+}
+
 /* Подвал */
 
 footer{
