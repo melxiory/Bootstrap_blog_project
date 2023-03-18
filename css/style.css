@@ -33,7 +33,7 @@ a{
     text-decoration: none;
 }
 
-h2, h3, h4, h5{
+h1, h2, h3, h4, h5{
     font-weight: bold;
 }
 
@@ -134,6 +134,9 @@ header {
     align-items: center;
 }
 
+.pers_and_date a {
+    color: purple;
+}
 /* Категории */
 .categories{
     padding: 80px 0;
@@ -245,3 +248,54 @@ footer .cont_icons{
     height: 128px;
     border-radius: 50%;
 }
+
+
+/*######### BLOG ##########*/
+
+/*Лучший пост*/
+
+.blog_best_post {
+    max-width: 1440px;
+    padding: 80px 0;
+    background-color: var(--color_lavender);
+}
+
+.blog_best_post__img {
+    padding: 40px;
+}
+
+/* Все посты */
+
+.blog_all_post {
+    max-width: 1440px;
+    padding: 80px 0;
+}
+
+.blog_all_post__content {
+    padding: 50px 0;
+    border-top: 1px solid var(--color_mediumgrey);
+}
+
+.blog_all_post__paginator .pagination{
+    --bs-pagination-padding-x: 0.75rem;
+    --bs-pagination-padding-y: 0.375rem;
+    --bs-pagination-font-size: 1rem;
+    --bs-pagination-color: var(--color_yellow);
+    --bs-pagination-bg: var(--bs-body-bg);
+    --bs-pagination-border-width: var(--bs-border-width);
+    --bs-pagination-border-color: var(--color_yellow);
+    --bs-pagination-border-radius: 0;
+    --bs-pagination-hover-color: var(--color_black);
+    --bs-pagination-hover-bg: var(--color_yellow);
+    --bs-pagination-hover-border-color: var(--color_yellow);
+    --bs-pagination-focus-color: var(--color_black);
+    --bs-pagination-focus-bg: var(--color_yellow);
+    --bs-pagination-focus-box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+    --bs-pagination-active-color: var(--color_black);
+    --bs-pagination-active-bg: var(--color_yellow);
+    --bs-pagination-active-border-color: var(--color_yellow);
+    --bs-pagination-disabled-color: var(--color_mediumgrey);
+    --bs-pagination-disabled-bg: var(--color_lightgrey);
+    --bs-pagination-disabled-border-color: var(--bs-border-color);
+}
+
