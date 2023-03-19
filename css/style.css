@@ -9,6 +9,7 @@
     --color_lightgrey: #F4F4F4;
     --color_lavender: #F4F0F8;
     --color_lightyellow: #FBF6EA;
+    --color_lightblack: #292c3e;
 }
 
 
@@ -41,8 +42,12 @@ h1, h2, h3, h4, h5, .contact__content__btn{
 /* Навигационный бар */
 
 .navbar-brand{
-    font-size: 28px;
+    font-size: 32px;
     font-weight: bold;
+}
+
+.navbar-nav {
+    font-size: 20px;
 }
 
 
@@ -70,9 +75,10 @@ h1, h2, h3, h4, h5, .contact__content__btn{
 
 
 header {
-    padding: 0 30px;
+    padding: 0 40px;
     background-color: var(--color_black);
 }
+
 
 .btn {
     --bs-btn-border-radius: 0;
@@ -182,7 +188,7 @@ header {
 /* Подвал */
 
 footer{
-    padding: 30px;
+    padding: 30px 40px;
     background-color: var(--color_black);
 }
 
@@ -196,6 +202,8 @@ footer .container-fluid {
 
 .subscribe{
     padding: 30px;
+    background-color: var(--color_lightblack);
+    margin: 20px 0;
 }
 
 .subscribe h3 {
@@ -425,8 +433,10 @@ footer .cont_icons{
 
 .contact__content {
     max-width: 1440px;
-    padding: 0 0 100px 0;
+    padding: 0 0 150px 0;
 }
+
+/* Контент */
 
 .contact__content__contacts {
     color: white;
@@ -437,4 +447,20 @@ footer .cont_icons{
 .contact__content__btn {
     width: 100%;
     height: 60px;
+}
+
+/*######### PRIVACY POLICY ##########*/
+/* Титул */
+
+.privacy__title {
+    background-color: var(--color_lavender);
+}
+
+.privacy__title .container {
+    max-width: 1440px;
+    padding: 100px 0;
+}
+
+.privacy__content {
+    padding-bottom: 100px;
 }
