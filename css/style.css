@@ -331,3 +331,91 @@ footer .cont_icons{
     max-width: 1440px;
     padding: 80px 0;
 }
+
+
+/*######### ABOUT US ##########*/
+/* Титул */
+
+.about_us__title {
+    background-color: var(--color_lavender);
+}
+
+.about_us__title .container{
+    max-width: 1440px;
+    padding: 80px 80px;
+}
+
+/*О нас*/
+.about_us__content {
+    max-width: 1440px;
+    padding: 80px 0;
+}
+
+/*######### CATEGORY ##########*/
+/* Титул */
+
+.category__title {
+    background-color: var(--color_lavender);
+}
+
+.category__title .container {
+    max-width: 1440px;
+    padding: 80px 0;
+}
+
+
+.category__content  {
+    max-width: 1440px;
+    padding: 80px 0;
+}
+
+.category__content__category__btn {
+    padding: 0 20px;
+    width: 300px;
+    height: 100px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: white;
+    color: var(--color_black);
+}
+
+.category__content__tags button {
+    color: var(--color_black);
+    border-color: var(--color_black);
+    --bs-btn-border-radius: 1rem;
+    --bs-btn-padding-x: 1.75rem;
+}
+
+/*######### CATEGORY ##########*/
+/* Титул */
+
+.author__title {
+    background-color: var(--color_lavender);
+}
+
+.author__title .container {
+    max-width: 1440px;
+}
+
+
+@media (min-width: 960px) {
+    .p-lg-format {
+        padding: 100px 200px 0 200px !important;
+    }
+}
+
+@media (min-width: 768px) {
+    .p-md-format {
+        padding: 80px 100px 0 100px !important;
+    }
+}
+
+.author__my_post .container{
+    max-width: 1440px;
+}
+
+.author__title__line {
+    height: 25px;
+    max-width: 1240px;
+}
